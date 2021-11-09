@@ -20,7 +20,7 @@ class GameField {
         sb.append("Points: $currentPoints\n")
         for (x in 0 until desk.height) {
             for (y in 0 until desk.width) {
-                sb.append(desk[x, y], "    ")
+                sb.append(desk[x, y], "\t")
             }
             sb.append("\n\n")
         }
